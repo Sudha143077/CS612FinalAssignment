@@ -11,15 +11,6 @@
         <name>project</name>
         <url>file:${project.basedir}/repo</url>
     </repository>
-<!--         <repository> -->
-<!--             <id>com.enterprise</id> -->
-<!--             <name>repository on GitHub</name> -->
-<!--             <url>https://github.com/sudhayarram/enterprise-jar.git</url> -->
-<!--         </repository> -->
-<!--         <repository> -->
-<!--             <id>webjars</id> -->
-<!--             <url>http://webjars.github.com/m2</url> -->
-<!--         </repository> -->
     </repositories>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -51,7 +42,6 @@
   	<dependency>
   		<groupId>com.enterprise</groupId>
   		<artifactId>enterprise</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
   		<version>1.0</version>
   	</dependency>
   </dependencies>
